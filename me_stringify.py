@@ -15,7 +15,7 @@ async def main():
 	async for dialog in client.iter_dialogs():
 		print(dialog.name, 'has ID', dialog.id)
 	#await client.send_message('+998993958460', 'hello friend!')
-	async for message in client.iter_messages('Алмардон Кушни'):
+	async for message in client.iter_messages('🎇🇺🇿Norinlik🇺🇿🎇 🎇🇺🇿somsapazlar🇺🇿🎇'):
 		print(message.id, message.text)
 
 with client:
